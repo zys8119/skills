@@ -17,4 +17,5 @@ Token 也可放在项目根目录 `token.json`（`access_token` 字段，支持 
 
 ## 搜索star项目
 
-读取`stars.json`文件，根据用户的问题，从star项目列表中提取相关的信息。
+1.如果`stars.json`文件不存在，先更新数据。
+2.读取`stars.json`文件，根据用户的问题，从star项目列表中提取相关的信息。
