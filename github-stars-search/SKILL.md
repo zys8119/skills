@@ -3,6 +3,14 @@ name: github-stars
 description: 使用此技能搜索github上的star项目
 ---
 
+# 搜索github上的star项目
+
+## 功能
+- 搜索github上的star项目
+- 提取star项目的url、名称、简介、分类等信息
+
+## 数据来源
+
 读取`stars.json`文件，获取star项目的列表。
 
 ## 更新数据
